@@ -1,0 +1,12 @@
+[package]
+name = "reload"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+cstr = "0.2.10"
+greet = { path = "libgreet" }
+libloading = "0.7.3"
+notify = "4.0.17"
