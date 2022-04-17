@@ -12,7 +12,7 @@ Other nice updates include:
 
 ```sh
 # from ./libgreet
-cargo-watch -- cargo build --manifest-file-path=../Cargo.toml
+cargo-watch -- cargo build --manifest-path=../Cargo.toml
 ```
 
 The article is a really great read and there is *a lot* to learn from it.
